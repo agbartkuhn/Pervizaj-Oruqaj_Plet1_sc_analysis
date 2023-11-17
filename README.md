@@ -12,14 +12,10 @@ Either you have your own python environment with the same python package version
 To circumvent the hassle of installing all packages, we offer an easy to use docker image.
 
 ## Docker file usage
-
 Download docker image
 ```
 docker pull agbartkuhn/pervizaj-oruqaj_plet1_sc_analysis
 ```
-+++
-
-
 Run the docker image from the folder which contains all Star alignment and the csv file. 
 ```
 docker run --interactive --tty --rm --name sc_analysis_r_py_210114 --publish 8888:8888 --volume "$(pwd)":/root/host_home --workdir /root agbartkuhn/pervizaj-oruqaj_plet1_sc_analysis:latest /bin/bash
