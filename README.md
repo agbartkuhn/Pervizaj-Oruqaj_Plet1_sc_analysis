@@ -1,6 +1,6 @@
 # Alveolar macrophage-expressed Plet1 is a driver of lung epithelial repair after viral pneumonia
 
-This Jupyter Notebook contains the essential steps in order to reproduce the findings of the scRNA-seq based analysis in XXXPAPERXXX. 
+This Jupyter Notebook contains the essential steps in order to reproduce the findings of the scRNA-seq based analysis in [Pervizaj-Oruqaj, et. al](https://pubmed.ncbi.nlm.nih.gov/38167746/). 
 
 # Data Availability
 Raw data, as well as the final h5ad file, can be downloaded from [GEO (GSE208294)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE208294). 
